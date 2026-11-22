@@ -1,41 +1,29 @@
-# Hi, I'm Atharva Dhawale 👋
+# Atharva Dhawale
 
-**Electronics & Computer Engineering Student** | **Embedded Systems, Robotics & IoT**  
-🏆 *1st Rank Winner — CanSat InnovateX 4.0 International Tech Fest*  
-📍 Pune, Maharashtra, India
+I’m an Electronics and Computer Engineering student in Pune. I build robotic arm simulations and embedded telemetry systems. My recent projects range from controlling a simulated gripper to tracking a CanSat by radio.
 
----
+**Open to two-month internships in robotics, embedded systems, and IoT.** [LinkedIn](https://www.linkedin.com/in/atharva-dhawale-5b4242333) · [Email](mailto:asdhawale28@gmail.com)
 
-### 🚀 About Me
-* 🎓 B.Tech in Electronics & Computer Engineering at Zeal College of Engineering and Research (1st Year CGPA: 9.18 / 10)
-* 🤖 Currently building a **ROS 2 Jazzy & micro-ROS** physical 6-DOF robotic arm hardware-software pipeline
-* 🛠️ Specialized in hardware-software integration, firmware development (C/C++), and CAD mechanical design
-* 💼 Seeking a **2-month internship** in Embedded Systems, Robotics, IoT, or AI Integration
+## Selected work
 
----
+### Robotic arm simulation
 
-### 🛠️ Technical Stack
-* **Languages:** C, C++, Python, SQL
-* **Robotics & Software:** ROS 2 (Jazzy Jalisco), Gazebo Harmonic, MoveIt2, micro-ROS, OpenCV, Git, Linux
-* **Hardware & IoT:** ESP32, Arduino, Raspberry Pi, Arduino Nicla Sense ME, XBee/Zigbee 3.0, NEO-6M GPS
-* **CAD & Prototyping:** SolidWorks, Onshape, Bambu Lab 3D Printing, PCB Design
+I modeled a five-joint arm with a parallel gripper and built a seven-stage pick-and-place sequence in ROS 2. The Python node requests inverse kinematics from MoveIt 2, sends joint targets, and reports the tool position at each stage. The repository includes the SolidWorks meshes, Gazebo world, and controller configuration.
 
----
+[Watch the demo](https://github.com/AtharvaDhawale/autonomous-6dof-robotic-arm/blob/main/media/demo.gif) · [Read the control sequence](https://github.com/AtharvaDhawale/autonomous-6dof-robotic-arm/blob/main/src/custom_arm/custom_arm_kinematics/custom_arm_kinematics/pick_and_place_telemetry.py) · [Explore the project](https://github.com/AtharvaDhawale/autonomous-6dof-robotic-arm)
 
-### 📌 Featured Projects
+### CanSat telemetry and ground station
 
-* 🤖 **ROS 2 6-DOF Robotic Arm**  
-  *Kinematics simulation in ROS 2 Jazzy, Gazebo Harmonic, and MoveIt2 bridged to an ESP32 micro-ROS hardware controller.*
+**First place, CanSat InnovateX 4.0 International Tech Fest.** The CanSat prototype collected environmental measurements and GPS coordinates and sent them to a ground station over XBee radio. The ground station used the incoming telemetry to track the prototype’s position.
 
-* 🛰️ **CanSat Telemetry & Ground Station**  
-  *Award-winning environmental monitoring satellite prototype featuring live GPS tracking, multi-sensor data fusion, and XBee 3.0 wireless telemetry.*
+### Nexus Control
 
-* 🦾 **6-DOF Hardware Robotic Arm**  
-  *Custom 3D-printed 6-axis arm with inverse kinematics logic written in C++ for Arduino Uno and a 10A SMPS buck converter power circuit.*
+A cross-device control prototype with a browser console, a Node.js relay, and a Python desktop agent. Devices pair before exchanging commands, and an action validator defines which requests the agent can accept.
 
----
+[Architecture](https://github.com/AtharvaDhawale/nexus-control/blob/main/docs/ARCHITECTURE.md) · [Relay tests](https://github.com/AtharvaDhawale/nexus-control/blob/main/server/test/server.test.js)
 
-### 📫 Reach Me
-* **Email:** asdhawale28@gmail.com
-* **LinkedIn:** [Atharva Dhawale](https://www.linkedin.com/in/atharva-dhawale-5b4242333)
-* **Location:** Pune, Maharashtra, India
+## Background
+
+- **Engineering** · B.Tech in Electronics and Computer Engineering, Zeal College of Engineering and Research. First-year CGPA **9.18/10**.
+- **Design** · Graphic design internship at Virtue Coding.
+- **Hardware and software** · C/C++ for microcontrollers, Python for robotics, SolidWorks and Onshape for mechanical design, and ESP32, Arduino, and XBee for embedded projects.
